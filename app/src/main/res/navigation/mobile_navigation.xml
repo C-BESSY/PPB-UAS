@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ppb1.uasppb.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_beef"
+        android:name="com.ppb1.uasppb.ui.beef.BeefFragment"
+        android:label="Beef"
+        tools:layout="@layout/fragment_beef" />
+
+    <fragment
+        android:id="@+id/nav_chicken"
+        android:name="com.ppb1.uasppb.ui.chicken.ChickenFragment"
+        android:label="Chicken"
+        tools:layout="@layout/fragment_chicken" />
+
+    <fragment
+        android:id="@+id/nav_seafood"
+        android:name="com.ppb1.uasppb.ui.seafood.SeafoodFragment"
+        android:label="Seafood"
+        tools:layout="@layout/fragment_seafood" />
+
+</navigation>
